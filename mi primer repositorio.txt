@@ -1,0 +1,12 @@
+Como crear un nuevo repositorio?
+
+Abrimos la carpeta en la que queremos crear el repositorio con el comando cd .....
+
+(Para crear nueva carpeta mkdir "......."
+
+Touch "....." Para crear nuevo archivo.
+
+Desde el VS Code creamos nuestro repositorio local, mediante el comando git init
+
+Nunca debemos hacer git init en Desktop o una carpeta que contenga archivos grandes
+
