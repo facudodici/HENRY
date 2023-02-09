@@ -8,5 +8,14 @@ Touch "....." Para crear nuevo archivo.
 
 Desde el VS Code creamos nuestro repositorio local, mediante el comando git init
 
-Nunca debemos hacer git init en Desktop o una carpeta que contenga archivos grandes
+Git status para ver el estado.
 
+Git add "......" Para agregar el archivo con el cual queremos hacer el commit
+
+Git commit -m "......" Para realizar el commit.
+
+Git log para ver los commit creados
+ 
+Git status para ver el estado
+
+Git push para subirlo a la nube o githab
