@@ -1,0 +1,21 @@
+Comandos básicos para terminal:
+
+Pwd ---> Nos permite ver en que directorio estamos trabajando.
+
+Ls ---> nos tira un listado de los archivos o directorios que se encuentran dentro del directorio en el que estamos trabajando.
+
+Cd ---> nos permite abrir un directorio.
+
+Mkdir ---> para crear nuevo directorio
+
+Touch ---> para crear nuevo archivo (siempre se debe colocar la extension del archivo, por ejemplo ".js")
+
+Rm ---> para eliminar un archivo permanentemente
+
+
+Los comandos tienen opciones que al utilizarlas nos pueden brindar mas detalles de lo que queremos ver
+
+Con el comando "help" podemos ver un listado de los comandos y sus opciones; y si queremos ver las opciones de un comando en especial podemos escribir en la terminal el comando y a continuación 
+"--help"
+
+Por ejemplo = ls --help
