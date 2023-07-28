@@ -4,7 +4,7 @@ console.log(5 + 5);
 console.log(5 * 5);
 console.log(5 - 5);
 
-//el resto o modulo es representado de javascript mediante el signo " % ""
+//el resto O MODULO es representado de javascript mediante el signo " % ""
 
 console.log(95 % 4);
 
@@ -17,3 +17,6 @@ console.log("Aldana " + "rompe " + "huevos");
 var nombre = "Aldana";
 var saludo = "HOLA " + nombre;
 console.log(saludo);
+//Queda guardado en la variable saludo "hola" + la variable nombre.
+
+//VER Y PRESTAR ATENCION PRESEDENCIA DE OPERADORES. 

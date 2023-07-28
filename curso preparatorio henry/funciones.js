@@ -3,7 +3,8 @@
 // ej: si a nuestra x le damos el valor 5, tendriamos de esa funcion un nuevo numero, el 8.
 
 function sumaTres(x){
-    console.log(x + 3);  
+    console.log(x + 3);
+    console.log(x * 2);  
 }
 
 sumaTres(5);
@@ -11,7 +12,7 @@ sumaTres(5);
 //sintaxis de una funcion
 /* 
 "function" = es la palabra reservada para la funcion.
-lo que sigue, sumaTres en este caso es el nombre que le vamos a dar a la funcion.
+lo que sigue, "sumaTres" en este caso es el nombre que le vamos a dar a la funcion.
 a continuacion sigue un parentesis, dentro de ellos vamos a describir el argumento o parametro, el cual sirve para darle informacion a la funcion
 luego siguen las llaves {} a este espacio se lo conoce como cuerpo de la funcion
 es aqui donde indicaremos las instrucciones de lo que realizara la funcion.
@@ -38,4 +39,8 @@ var sumaTres = (x) => {
 
 //console.log = nos da una ayuda visual para saber cual es el valor de una variable. (ayuda para el programador).
 
+var animal = "caballo";
+console.log(animal);
+
 //return = nos va indicar que valor nos debe devolver la funcion.
+// Ver en funciones2.js

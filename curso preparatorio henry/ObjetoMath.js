@@ -9,7 +9,7 @@ Math.round(0.49) = 0
 Math.round(0.50) = 1
 
 "Math.floor" redondeara el numero decimal al entero de menor valor. Si tenemos el numero 5.93 el resultado sera 5.
-Math.floor(5.93) = %
+Math.floor(5.93) = 5
 
 "Math.ceil" redondeara un numero al siguiente entero. Si tenemos 3.27 el resultado sera 4.
 Math.ceil(3.27) = 4

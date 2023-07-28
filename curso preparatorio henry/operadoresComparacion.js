@@ -19,7 +19,9 @@ console.log(3 == "3");
 console.log(3 === 3);
 console.log(3 === "3");
 
-// Asociatividad
+// Asociatividad (orden de ejecucion en las operaciones) a la IZQUIERDA,
+// Resuelve de derecha a izquierda
+
 var a = 1;
 var b = 2;
 var c = (a = b);

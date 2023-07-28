@@ -1,7 +1,7 @@
 // Los operadores logicos son && = y. si tenemos mas de 2 condiciones unidas por el operador and (&&)
 // todas deben ser verdaderas para que la condicion final lo sea.
 
-function mayorYMenor(num){
+function mayorYMenorYPar(num){
     if (num > 5 && num < 10 && num % 2 === 0) {
         console.log(true);
     } else {
@@ -9,10 +9,10 @@ function mayorYMenor(num){
     }
 }
 
-mayorYMenor(2);
-mayorYMenor(8);
-mayorYMenor(7);
-mayorYMenor(6);
+mayorYMenor(2); //FALSE
+mayorYMenor(8); //TRUE
+mayorYMenor(7); //FALSE
+mayorYMenor(6); //TRUE
 
 
 //operador || = or/o, basta solo con que una condicion sea verdadera para que la condicion final tambien lo sea.
@@ -25,9 +25,9 @@ function operadorOr(str){
     }
 }
 
-operadorOr("Henry");
-operadorOr("javascript");
-operadorOr("A");
+operadorOr("Henry"); //TRUE
+operadorOr("javascript"); //FALSE
+operadorOr("A"); //TRUE
 
 
 //operador ! = negacion.
@@ -40,7 +40,7 @@ function negacion(permiso){
     }    
 }
 
-negacion(false);
+negacion(false); //Tiene permiso
 
 
 function operacionCompleja(num){
@@ -51,7 +51,7 @@ function operacionCompleja(num){
     }
 }
 
-operacionCompleja(10);
-operacionCompleja(6);
-operacionCompleja(3);
-operacionCompleja(5);
+operacionCompleja(10); //TRUE
+operacionCompleja(6); //FALSE
+operacionCompleja(3); //TRUE
+operacionCompleja(5); //FALSE

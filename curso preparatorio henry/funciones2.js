@@ -1,18 +1,18 @@
 function cuidadoConElConsoleLog(nombre){
     console.log(nombre);
-    return nombre;
+    return(nombre);
 }
 
 function otraFuncion() {
     return (
         "El nombre retornado por la funcion 'cuidadoConElConsoleLog' es: " +
-        cuidadoConElConsoleLog('camilo')
+        cuidadoConElConsoleLog('Aldana')
     );
 }
 
 function cuidadoConElReturn(nombre) {
     return nombre;
-    console.log('camilo');
+    console.log('Aldana');
 }
 
 //funciones son bloques de codigo que podemos ejecutar y nos retornaran algun valor.

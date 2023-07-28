@@ -26,3 +26,6 @@ console.log(cajon1);
 var sinNada = Null;
 
 //Estos son los 5 tipos de datos mas frecuentes, PERO NO SON LOS UNICOS.
+
+
+// METODO LENGTH: Es un metodo que puede aplicar SOLO al tipo de dato STRING. Si lo aplicamos a otro tipo de dato nos va devolver ERROR.
