@@ -1,0 +1,47 @@
+Los Arrays o Arreglos son OTRO tipo de dato dentro de Javascript (como los numeros o strings)
+Nos permiten GUARDAR y GESTIONAR informacion, nos va servir cuando querramos almacenar muchos datos, como nombres de usuarios, compras de supermercado, etc
+podemos pensar a los arrays como listas de datos a la que podemos acceder en CUALQUIER momento.
+todas las listas de datos tinen distintas posiciones en las que se pueden guardar datos.
+existen 2 conceptos: 
+ELEMENTOS: son aquellos datos que hemos guardado
+INDICE: no representan el dato, sino la posicion en la que se esta guardando.
+siempre se cuenta el indice desde el 0 (cero).
+
+Para Crear un Arreglo (Array):
+
+var EquiposDeFutbol = []; (Con esto ya creamos el arreglo)
+
+Para añadir elementos a nuestro arreglo:
+
+EquiposDeFutbol[0] = "Boca Juniors";
+EquiposDeFutbol[2] = "RiBer";      (Con esto creamos un arreglo con 3 Elementos, pero la posicion 1 continua vacia)
+
+Para recuperar o acceder al elemento de un arreglo (tenemos que saber su indice):
+
+EquiposDeFutbol[0];
+
+Pero para poder mostrarlo podemos guardarlo en una variable y hacer un console.log:
+
+Var ElementoDelArray = EquiposDeFutbol [0];
+console.log(ElementoDelArray);
+
+
+
+
+Metodo LENGTH: Nos permite saber la Longitud de un arreglo (cuantos elementos tiene).
+
+Ej:
+
+var EquiposDeFutbol = [];
+EquiposDeFutbol[0] = "Boca Juniors";
+EquiposDeFutbol[2] = "RiBer";
+
+console.log(EquiposDeFutbol.length);
+
+
+
+
+
+
+
+

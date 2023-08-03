@@ -1,0 +1,25 @@
+Git clone: Sirve para clonar un repositorio y guardarlo en nuestra PC.
+
+Git status: nos permite ver la informacion. si hay algo por confirmar, enviar o recibir (pull).
+Si hay archivos en preparacion (staged), sin preparacion (unstaged) o que no estan recibiendo seguimiento (untracked).
+Si hay archivos creados, modificados o eliminados.
+
+Git add: Cuando creamos, modificamos o eliminamos un archivo, estos cambios suceden en local y no se incluiran
+en el siguiente commit. Justamente usamos el comando "git add <nombredelarchivo>" o "git add -A o all" para incluir los
+cambios del o de los archivos en el siguiente commit.
+
+Git commit: Una vez que se llega a cierto punto en el desarrollo y queremos guardar los cambios realizados 
+realizamos un commit, sirve para establecer un punto de control en el proceso de desarrllo al cual podemos volver mas
+tarde si es necesario. Para realizarlo codeamos lo siguiente <git commit -m "mensaje de confirmacion">.
+**Git commit guarda los cambios unicamente en local.
+
+Git push: Luego de guardar los cambios (commit), el siguiente paso que queremos dar es enviarlos al servidor remoto (git hub, etc).
+Para esto utilizamos Git push, que envia nuestros commits al repositorio remoto.
+lo hacemos de la siguiente manera: <git push "nombre-remoto">
+
+Git pull: Se utiliza para recibir actualizaciones del repositorio remoto. Actualiza un local.
+lo hacemos de la siguiente manera: <git push "nombre-remoto">
+
+Git remote -v: para saber la URL del remoto al que está configurado.
+
+para añadir un remoto git remote add pb "URLdelremoto"
