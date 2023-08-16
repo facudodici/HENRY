@@ -36,7 +36,14 @@ var EquiposDeFutbol = [];
 EquiposDeFutbol[0] = "Boca Juniors";
 EquiposDeFutbol[2] = "RiBer";
 
-console.log(EquiposDeFutbol.length);
+console.log(EquiposDeFutbol.length);  = 3
+
+
+
+
+METODOS DE ARRAYS
+
+
 
 
 

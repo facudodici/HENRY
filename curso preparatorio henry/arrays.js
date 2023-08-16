@@ -1,12 +1,3 @@
-/* Los Arrays o Arreglos son OTRO tipo de dato dentro de Javascript (como los numeros o strings)
-Nos permiten GUARDAR y GESTIONAR informacion, nos va servir cuando querramos almacenar muchos datos, como nombres de usuarios, compras de supermercado, etc
-podemos pensar a los arrays como listas de datos a la que podemos acceder en CUALQUIER momento.
-todas las listas de datos tinen distintas posiciones en las que se pueden guardar datos.
-existen 2 conceptos: 
-ELEMENTOS: son aquellos datos que hemos guardado
-INDICE: no representan el dato, sino la posicion en la que se esta guardando.
-siempre se cuenta el indice desde el 0 (cero).
-*/
 
 //var listaDeCompras = [];
 //listaDeCompras[3] = "Tomates";
@@ -23,56 +14,59 @@ siempre se cuenta el indice desde el 0 (cero).
 
 // METODOS: length, permite saber la longitud del arreglo.
 
-//.push para anadir un elemento.
+//.push para anadir un elemento AL FINAL DEL ARREGLO
 //var colores = ["amarillo", "azul"];
 //console.log(colores);
 //colores.push("rojo");
-//console.log(colores);
+//console.log(colores); = amarillo, azul, rojo
 
-//.unshift para anadirlo al principio.
+//.unshift para anadirlo AL PRINCIPIO
 //colores.unshift("verde");
-//console.log(colores);
+//console.log(colores); = verde, amarillo, azul, rojo
 
-//.pop para ELIMINAR el ultimo elemento de nuestro array
+//.pop para ELIMINAR el ULTIMO ELEMENTO de nuestro array
 //colores.pop();
-//console.log(colores);
+//console.log(colores); = verde, amarillo, azul
 
-//.shift para ELIMINAR el primer elemento de nuestro array
+//.shift para ELIMINAR el PRIMER ELEMENTO de nuestro array
 //colores.shift();
-//console.log(colores);
+//console.log(colores); = amarillo, azul
 
 //.includes para saber si nuestro array incluye un elemento o no (devuelve TRUE or FALSE).
 
 //var pintores = ["Picasso", "Velazquez", "Van Gogh", "Dali"];
 //var incluyeDali = pintores.includes("Monet");
-//console.log(incluyeDali);
+//console.log(incluyeDali); = TRUE
 
 //.every nos permite saber si absolutamente todos los elementos de un array cumplen con una condicion.
 //var numeros = [7, 6 ,8, 9];
-//var cumpleCondicion = numeros.every((num)=>{
-//    return num > 5;
+//var cumpleCondicion = numeros.every((num) => {       dentro del parentesis va el parametro con el que trabajaremos, en este caso num (numeros)
+//    return num > 5;       luego la condicion que se debe cumplir, numeros mayor a cinco.
 //});
 //console.log(cumpleCondicion);
 
-// METODOS .split()  y .join()
+// METODOS .split() SEPARAR  y .join() UNIR
 
 //var palabra = "Henri";
-//var palabraSeparada = palabra.split('');
+//var palabraSeparada = palabra.split('');  separo la palabra en cada letra
+//console.log(palabraSeparada); = h, e, n, r, i
+//palabraSeparada.pop(); = h, e, n, r
+//palabraSeparada.push('y'); = h, e, n, r, y
 //console.log(palabraSeparada);
-//palabraSeparada.pop();
-//palabraSeparada.push('y');
-//console.log(palabraSeparada);
-//var palabraArreglada = palabraSeparada.join('');
-//console.log(palabraArreglada);
+//var palabraArreglada = palabraSeparada.join(''); une las letras formando una palabra
+//console.log(palabraArreglada); = henry
+
+// si entre las comillas ponemos un (espacio) va separar/unir la palabra cada vez que haya un espacio, si ponemos una A va separar/unir cada vez que haya una A.
+
 
 //METODOS para recorrer arreglos.
 //.forEach() permite recorrer un array y realizar una accion pero no podemos realizar NINGUN CAMBIO.
 
 //var numero = [1, 2, 3, 4];
-//numero.forEach((num) => console.log(num));
+//numero.forEach((num) => console.log(num)); = nos muestra todos los elementos del array
 //numero.forEach((num)=> {
 //    if(num === 3){
-//        console.log(num);
+//        console.log(num); = nos muestra el numero 3 (si es que el arreglo lo contiene)
 //    }
 //});
 
@@ -80,9 +74,9 @@ siempre se cuenta el indice desde el 0 (cero).
 
 //var numeros = [1, 2, 3, 4];
 //var masUno = numeros.map((num) => {
-//    return num + 1;
+//    return num + 1;       le suma uno a cada elemento.
 //});
-//console.log(masUno);
+//console.log(masUno); nos devuelve = 2, 3, 4, 5
 
 //"BUCLES"
 //Dentro del for se declara primero la variable de iteracion = 0.
