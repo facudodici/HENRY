@@ -40,8 +40,8 @@
 
 //.every nos permite saber si absolutamente todos los elementos de un array cumplen con una condicion.
 //var numeros = [7, 6 ,8, 9];
-//var cumpleCondicion = numeros.every((num) => {       dentro del parentesis va el parametro con el que trabajaremos, en este caso num (numeros)
-//    return num > 5;       luego la condicion que se debe cumplir, numeros mayor a cinco.
+//var cumpleCondicion = numeros.every((num) => {     //  dentro del parentesis va el parametro con el que trabajaremos, en este caso num (numeros)
+//    return num > 5;      // luego la condicion que se debe cumplir, numeros mayor a cinco.
 //});
 //console.log(cumpleCondicion);
 
@@ -103,8 +103,8 @@
 //encontrarLetraP("paula");
 //encontrarLetraP("Henry");
 
-var arr = [];
-while(arr.length < 5){
-    arr.push('BOOM');
-}
-console.log(arr);
+//var arr = [];
+//while(arr.length < 5){
+//    arr.push('BOOM');
+//}
+//console.log(arr);
